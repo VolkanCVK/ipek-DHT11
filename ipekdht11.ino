@@ -1,5 +1,5 @@
 /*********
- ipek yagmur cevik 
+ ipek yagmur 
 *********/
 
 #include <Wire.h>
@@ -134,7 +134,7 @@ void loop() {
   
   display.setTextSize(1);
   display.setCursor(12,5);
-  display.print("iPEK YAGMUR CEViK\n");
+  display.print("iPEK YAGMUR\n");
   display.setTextSize(2);
   display.setTextColor(BLACK, WHITE);
   display.setCursor(20,20);
@@ -144,14 +144,14 @@ void loop() {
   display.setCursor(12,45);
   display.print("Cizgi Takip Robotu\n");
   display.setCursor(18,56);
-  display.print("CEYDA NAZ CEViK");
+  display.print("CEYDA NAZ");
   display.display();
   delay(3000);
   display.clearDisplay();
   
   display.setTextSize(1);
   display.setCursor(12,5);
-  display.print("iPEK YAGMUR CEViK");
+  display.print("iPEK YAGMUR");
   display.setTextSize(1);
   display.setCursor(0,30);
   display.print("SICAKLIK:");
